@@ -5,6 +5,36 @@
     padding: 0;
     margin: 0;
 }
+/* body{
+     background-color: #454545;
+} */
 nav{
-   background-color:burlywood;
+    padding: 10px;
+    background-color: rgb(79, 75, 75);
+
+}
+.hero-page{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-page p{
+     margin-top: 20px;
+    font-size:5rem;
+    font-weight:600;
+    color:rgb(79, 75, 75);
+}
+
+@media (max-width:600px) {
+    #logo a img{
+        width: 100px;
+    }
+    .hero-page img{
+        width: 95%;
+    }
+    .hero-page p{
+        font-size:3rem;
+    }
 }
